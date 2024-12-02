@@ -1,0 +1,43 @@
+.header {
+    background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+.logoHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 20%;
+
+    h1 {
+        font-size: 30px;
+        color: #FFF;
+    }
+}
+
+.navLinks {
+    width: 30%;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+
+    }
+    
+    .link {
+        color: #FFF;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
+
+.barraPesquisa {
+    border: solid white;
+    width: 20%;
+    height: 6vh;
+}
