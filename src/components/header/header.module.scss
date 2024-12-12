@@ -40,4 +40,28 @@
     border: solid white;
     width: 20%;
     height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 1%;
+
+    input {
+        background-color: transparent;
+        border: none;
+        width: 60%;
+        height: 5vh;
+        outline: none;
+
+        &::placeholder {
+            color: white;
+            font-size: 20px;
+        }
+    }
+    
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
 }
