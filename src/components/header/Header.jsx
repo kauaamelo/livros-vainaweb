@@ -1,10 +1,10 @@
 import logoLivro from '../../assets/logoLivro.png'
 import search from '../../assets/search.png'
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
-import Inicio from '../../assets/pages/inicio/Inicio'
-import LivrosDoados from '../../assets/pages/livrosDoados/LivrosDoados'
-import QueroDoar from '../../assets/pages/queroDoar/QueroDoar'
-import style from './header.module.scss'   
+import Inicio from '../../pages/inicio/Inicio'
+import LivrosDoados from '../../pages/livrosDoados/LivrosDoados'
+import QueroDoar from '../../pages/queroDoar/QueroDoar'
+import style from '../../components/header/header.module.scss'   
 
 export default function Header() {
     return(

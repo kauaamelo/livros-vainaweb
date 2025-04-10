@@ -1,8 +1,8 @@
-import style from './inicio.module.scss'
-import communityCard1 from '../../../assets/communityCard1.png'
-import readingCard2 from '../../../assets/readingCard2.png'
-import transformCard3 from '../../../assets/transformCard3.png'
-import balanceCard4 from '../../../assets/balanceCard4.png'
+import style from '../../pages/inicio/inicio.module.scss'
+import communityCard1 from '../../assets/communityCard1.png'
+import readingCard2 from '../../assets/readingCard2.png'
+import transformCard3 from '../../assets/transformCard3.png'
+import balanceCard4 from '../../assets/balanceCard4.png'
 
 export default function Inicio() {
     return(
